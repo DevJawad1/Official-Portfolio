@@ -26,10 +26,10 @@ const projects = [
     category: "Frontend",
     title: "Project 1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facilis distinctio. Quia.",
+      "I built a modern, responsive furniture website that highlights a variety of home and office products. The site features a clean, user-friendly design, smooth navigation to help users browse and explore products easily across all devices.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/project/furniture.png",
-    live: "",
+    live: "https://cdsfurniure.netlify.app/",
     github: "",
   },
   {
@@ -37,21 +37,21 @@ const projects = [
     category: "Frontend",
     title: "Project 2",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facilis distinctio. Quia.",
+      "An interactive photo editor that lets users adjust brightness, apply filters, rotate images, and save their edits with a clean, responsive interface.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/project/Photo lab.png",
-    live: "",
-    github: "",
+    live: "https://jwdphlab.netlify.app",
+    github: "https://github.com/DevJawad1/phOTOAPP",
   },
   {
     num: "03",
     category: "Fullstack",
     title: "Project 3",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facilis distinctio. Quia.",
+      "I developed a web-based Computer-Based Testing System (CBTS) where tutors can create and manage exams, and students can take them online. The platform features a clean, responsive interface that makes exam creation, scheduling, and grading simple for tutors, while providing students with a smooth and intuitive test-taking experience",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/project/cbt webapp.png",
-    live: "",
+    live: "https://gomalcbts.vercel.app",
     github: "",
   },
   {
@@ -59,22 +59,22 @@ const projects = [
     category: "Fullstack",
     title: "Project 4",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facilis distinctio. Quia.",
+      "I developed a full-featured e-commerce platform where users can browse products, add items to their cart, and make purchases and also sell any product of their choice with a feelng of being in a physical market place. The site features a clean, responsive design with smooth navigation, product filtering, and comprehensive product searching",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/project/imarkt.png",
-    live: "",
-    github: "",
+    live: "https://imarket-blond.vercel.app",
+    github: "https://github.com/DevJawad1/imarket",
   },
   {
     num: "05",
     category: "Fullstack",
     title: "Project 5",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facilis distinctio. Quia.",
+      "I built a responsive investment management platform where users can view their dashboard, track investment plans, monitor wallet activity, and access investment tools.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/project/investment app.png",
-    live: "",
-    github: "",
+    live: "https://fundinvc-website.vercel.app/register",
+    github: "https://github.com/DevJawad1/invc-website",
   },
 ];
 const Work = () => {

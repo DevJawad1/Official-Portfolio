@@ -9,28 +9,21 @@ const serviceArray = [
     num: '01',
     title: "Web Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat.",
+      "I build fast, responsive, and scalable web applications using modern technologies like React and Next.js. My focus is on performance, clean architecture, and delivering seamless user experiences.",
     href: ""
   },
   {
     num: '02',
     title: "UI/UX",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat.",
+      "I design intuitive and visually appealing interfaces that enhance user engagement. From wireframes to final designs, I ensure every interaction feels natural and user-friendly.",
     href: ""
   },
   {
     num: '03',
     title: "Logo Design",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat.",
-    href: ""
-  },
-  {
-    num: '04',
-    title: "Web Development",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat.",
+      "I create unique and memorable logos that reflect brand identity and values. Each design is crafted to be simple, versatile, and impactful across all platforms.",
     href: ""
   },
 ]

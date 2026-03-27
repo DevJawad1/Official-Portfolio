@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis necessitatibus.",
+    "I’m a passionate web developer who loves creating modern, efficient, and visually appealing web applications. I’m always learning and improving my skills, with a strong interest in solving real-world problems through technology and building products that make an impact.",
   info: [
     {
       fieldName: "Name",
@@ -52,7 +52,7 @@ const experience = {
   icon: "",
   title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex saepe molestias cum.",
+    "I am a certified web developer with hands-on experience building responsive and scalable web applications. I have worked on real-world projects, focusing on frontend development with React and Next.js, as well as backend integration using Node.js. I enjoy turning ideas into functional, user-friendly digital products.",
   items: [
     {
       comapny: "Tech Freelancing",
@@ -91,7 +91,7 @@ const education = {
   icon: "",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex saepe molestias cum.",
+    "I studied Web Development at SQI College of ICT, where I gained a solid foundation in programming, web technologies, and software development practices. My training equipped me with the skills to build full-stack applications and work effectively on real-world projects.",
   items: [
     {
       institution: "SQI College of ICT",
@@ -103,7 +103,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex saepe molestias cum.",
+    "I build modern, responsive web applications using React, Next.js, Tailwind CSS, and Node.js, with a focus on performance and clean code.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -182,7 +182,7 @@ const Resume = () => {
                   {experience.description}
                 </p>
               </div>
-              <ScrollArea className=" h-[400px] ">
+              <ScrollArea className=" h-[400px] mt-3">
                 <ul className=" grid grid-cols-1 lg:grid-cols-2 gap-[30px] ">
                   {experience.items.map((item, index) => {
                     return (
@@ -214,7 +214,7 @@ const Resume = () => {
                   {education.description}
                 </p>
               </div>
-              <ScrollArea className=" h-[400px] ">
+              <ScrollArea className=" h-[400px] mt-3 ">
                 <ul className=" grid grid-cols-1 lg:grid-cols-2 gap-[30px] ">
                   {education.items.map((item, index) => {
                     return (
